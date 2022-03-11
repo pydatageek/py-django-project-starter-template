@@ -112,6 +112,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "accounts.User"
 
+
 # DJANGO-ALLAUTH CONFIGS
 SITE_ID = 1
 AUTHENTICATION_BACKENDS = [

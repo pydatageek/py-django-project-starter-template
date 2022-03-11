@@ -1,5 +1,11 @@
 # PY Django Project Starter Template
 
+*** It is still in progress ***
+
+*** This project will be updated for each Django version. And there will be branches available representing the Django version. However, continues developement of the project will not be reflected to backwards. The latest version will have the most features and the less bugs, hopefully.***
+
+Django Project Starter Template is a short cut for you to start a project easily and quicker without the effort of seperating settings files for prod and dev, creating an Env() for secret data, and so on. I have tried to use best django 3rd party applications as dependencies.
+
 ## How?
 1. Rename .env-dist to .env
 2. Generate a secret key on https://djecrety.ir/ and write it on .env file e.g. SECRET_KEY=your-top-secret-key-here
