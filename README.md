@@ -7,9 +7,10 @@
 4. ./manage.py migrate
 5. to start an app
     `mkdir apps/my_app && ./manage.py startapp my_app apps/my_app`
-6. You are good to start your project.
+6. apps should be written as such: `apps.your_app` in apps.py and in settings->INSTALLED_APPS
+7. You are good to start your project.
 
-7. For production:
+8. For production:
 Change the line within manage.py file from `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.dev')` to `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.prod')` for productions environment. from `config.settings.dev` to `config.settings.prod`  
 
 ## What is it?
