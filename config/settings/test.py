@@ -5,13 +5,11 @@ DEBUG = False
 ALLOWED_HOSTS = []
 
 # Application definition
-INSTALLED_APPS -= [
-    "debug_toolbar",
-]
+INSTALLED_APPS.remove("debug_toolbar")
+INSTALLED_APPS += []
 
-MIDDLEWARE -= [
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
-]
+MIDDLEWARE.remove("debug_toolbar.middleware.DebugToolbarMiddleware")
+MIDDLEWARE += []
 
 DATABASES = {
     "default": {

@@ -17,7 +17,8 @@ Django Project Starter Template is a short cut for you to start a project easily
 7. You are good to start your project.
 
 8. For production:
-Change the line within manage.py file from `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.dev')` to `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.prod')` for productions environment. from `config.settings.dev` to `config.settings.prod`  
+Change the line within manage.py file from `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.dev')` to `os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.prod')` for productions environment. 
+in other words: change it from `config.settings.dev` to `config.settings.prod`  
 
 ## What is it?
 * The config app is the hearth of this django starter project template. Project wide settings, urls, wsgi and asgi files are within the config app.
